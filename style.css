@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+li{
+    margin: 0  60px;
+}
+.navbar-brand{
+    margin: 0 40px;
+}
+.card-intro{
+    text-align: center;
+}
+.card{
+    margin:5% ;
+    border: 1px solid pink;
+    border-radius:0px ;
+}
+.card-img-overlay {
+    margin: 25%;
+    text-align: center;
+}
+.all-Donuts{
+    text-align: center;
+    margin-top: 30px; 
+    
+}
+.btn{
+   border: 1px solid darkgray;
+}
+.card-bd{
+    background-color: pink;
+ }
+
+.card-adress{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card1{
+    width: 35%;
+    margin-left: 2px;
+}
+.card-deck{
+    display:flex;
+    margin: 0 175px;
+}
+.card-deck-2{
+    display:flex;
+    margin: 0 175px;
+}
+.card2{
+    width: 35%;
+    margin-right: 2px;
+}
+.container{
+    background-color: rgb(230, 229, 229);
+    width: 75%;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.icon{
+    font-size:x-large;
+    margin: 20px;
+    color: rgb(75, 74, 74)
+}
+
+
+@media(max-width:400px){
+        .card-img-overlay {
+            margin: 0% !important ; 
+            text-align: center;
+        }
+        .container{
+            width: 25%;
+            margin-top: 5px;
+        }
+        .icon{
+            margin:1px ;
+        }
+    }    
+
